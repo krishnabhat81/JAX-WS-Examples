@@ -7,6 +7,9 @@ import java.net.URL;
 /**
  * Created by krishna1bhat on 5/2/17.
  */
+
+//first run HelloWorldPublisher main ...
+//then run this client main method
 public class HelloWorldClient {
     public static void main(String[] args) throws Exception{
         URL url = new URL("http://localhost:8090/ws/hello?wsdl");
