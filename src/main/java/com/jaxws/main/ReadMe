@@ -1,0 +1,12 @@
+Two ways to test these examples:
+
+================================
+
+1. HelloWorldClient.java for hello web service
+
+//first run HelloWorldPublisher main ...
+//then run HelloWorldClient.java (or client may be new project, right? yes... ;))
+
+2. Main.java for hello and product webservice both
+
+//Directly run the Main.java class

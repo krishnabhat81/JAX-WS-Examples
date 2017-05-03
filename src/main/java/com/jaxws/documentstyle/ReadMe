@@ -1,0 +1,7 @@
+Like RPC style, we can create JAX-WS example in document style. To do so, you need to change only one line in service interface.
+
+You need to use Style.DOCUMENT for @SOAPBinding annotation in place of Style.RPC. Let's have a quick look at this:
+
+File: HelloWorld.java
+
+@SOAPBinding(style = SOAPBinding.Style.DOCUMENT)//It is changed from RPC to DOCUMENT
